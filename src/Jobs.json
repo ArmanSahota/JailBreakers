@@ -1,0 +1,12 @@
+[
+    { "title": "Web Developer", "type": "Full-time", "location": "Seattle, Wa", "postedDate": "2024-02-01" },
+    { "title": "Data Analyst", "type": "Part-time", "location": "Seattle, Wa", "postedDate": "2024-02-02" },
+    { "title": "UX/UI Designer", "type": "Full-time", "location": "Seattle, Wa", "postedDate": "2024-02-03" },
+    { "title": "Software Engineer", "type": "Full-time", "location": "Remote", "postedDate": "2024-02-04" },
+    { "title": "Marketing Specialist", "type": "Contract", "location": "Austin, Tx", "postedDate": "2024-02-05" },
+    { "title": "Systems Administrator", "type": "Full-time", "location": "Remote", "postedDate": "2024-02-06" },
+    { "title": "Mobile App Developer", "type": "Part-time", "location": "Miami, Fl", "postedDate": "2024-02-07" },
+    { "title": "Content Writer", "type": "Contract", "location": "Remote", "postedDate": "2024-02-08" },
+    { "title": "Network Engineer", "type": "Full-time", "location": "New York, NY", "postedDate": "2024-02-09" },
+    { "title": "Product Manager", "type": "Full-time", "location": "Remote", "postedDate": "2024-02-10" }
+  ]

@@ -1,0 +1,63 @@
+/* style2.css */
+
+/* Header */
+header {
+    background-color: #ff0000; 
+    color: #000000; 
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* Logo */
+h1 {
+    margin: 0;
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+/* Style the glowing icons */
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #000000; /* Change to your preferred hover color */
+}
+
+/* Add the glowing effect */
+nav ul li a::before {
+    content: ""; /* Remove the Font Awesome icon */
+    position: absolute;
+    top: 100%; /* Center vertically */
+    left: 0;
+    right: 0;
+    height: 1px; /* Adjust the line thickness as needed */
+    background-color: #000000; /* Add a subtle glow effect */
+    transform: scaleX(0); /* Initially hidden */
+    transform-origin: left; /* Stretch from the left */
+    transition: transform 0.3s ease;
+}
+
+nav ul li a:hover::before {
+    transform: scaleX(1); /* Stretch to full width on hover */
+}
+

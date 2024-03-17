@@ -1,0 +1,70 @@
+/* Container for the cart items */
+.cart-container {
+  margin: 20px;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+/* Individual cart item */
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+/* Image of the product in the cart */
+.cart-item-image {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+/* Title and price of the product in the cart */
+.cart-item-info {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+
+/* Remove button for each item */
+.cart-item-remove {
+  color: red;
+  cursor: pointer;
+  align-items: right;
+  background-color: transparent;
+  border: none;
+}
+
+/* Total price section */
+.cart-total {
+  margin-top: 20px;
+  text-align: right;
+  font-weight: bold;
+}
+
+/* Checkout button */
+.checkout-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.checkout-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .cart-item-image {
+      width: 40px;
+      height: 40px;
+  }
+}

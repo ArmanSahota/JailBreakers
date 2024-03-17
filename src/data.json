@@ -1,0 +1,11 @@
+[
+  { "id": 1, "name": "Gamecube", "icon": "images/Gamecube.png", "price": "100" , "shipping": "Free Shipping"},
+  { "id": 2, "name": "IPHONE", "icon": "images/IPHONE.png", "price": "300", "shipping": "Free Shipping" },
+  { "id": 3, "name": "Nintendo Switch", "icon": "images/NintendoSwitch.png", "price": "100", "shipping": "Free Shipping" },
+  { "id": 4, "name": "PS4", "icon": "images/PS4.png", "price": "80", "shipping": "Free Shipping" },
+  { "id": 5, "name": "PS5", "icon": "images/PS5.jpeg", "price": "160", "shipping": "Free Shipping" },
+  { "id": 6, "name": "Wii", "icon": "images/Wii_console.png", "price": "50", "shipping": "Free Shipping" },
+  { "id": 7, "name": "XBOX", "icon": "images/XBOX.png", "price": "100", "shipping": "Free Shipping" },
+  { "id": 8, "name": "XBOX360", "icon": "images/XBOX360.png", "price": "150", "shipping": "Free Shipping" }
+]
+

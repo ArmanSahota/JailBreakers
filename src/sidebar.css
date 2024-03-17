@@ -1,0 +1,55 @@
+/* The side navigation menu */
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    right: -200px; /* Start off hidden */
+    transition: right 0.3s ease-in-out;
+}
+
+/* Sidebar links */
+.sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+}
+
+/* Active/current link */
+.sidebar a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+/* Links on mouse-over */
+.sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+/* Toggle button */
+.toggle-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+}
+
+/* Open sidebar */
+.sidebar.open {
+    right: 0;
+}
+
+/* Page content */
+div.content {
+    margin-right: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+}
